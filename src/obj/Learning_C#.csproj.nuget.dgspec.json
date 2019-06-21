@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\johnlreiley\\Learning_C#\\test\\app.Tests\\app.Tests.csproj": {}
+    "c:\\Users\\johnlreiley\\Learning_C#\\src\\Learning_C#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\johnlreiley\\Learning_C#\\test\\app.Tests\\app.Tests.csproj": {
+    "c:\\Users\\johnlreiley\\Learning_C#\\src\\Learning_C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\johnlreiley\\Learning_C#\\test\\app.Tests\\app.Tests.csproj",
-        "projectName": "app.Tests",
-        "projectPath": "C:\\Users\\johnlreiley\\Learning_C#\\test\\app.Tests\\app.Tests.csproj",
+        "projectUniqueName": "c:\\Users\\johnlreiley\\Learning_C#\\src\\Learning_C#.csproj",
+        "projectName": "Learning_C#",
+        "projectPath": "c:\\Users\\johnlreiley\\Learning_C#\\src\\Learning_C#.csproj",
         "packagesPath": "C:\\Users\\johnlreiley\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\johnlreiley\\Learning_C#\\test\\app.Tests\\obj\\",
+        "outputPath": "c:\\Users\\johnlreiley\\Learning_C#\\src\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,23 +41,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[16.0.1, )"
-            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
-            },
-            "xunit": {
-              "target": "Package",
-              "version": "[2.4.0, )"
-            },
-            "xunit.runner.visualstudio": {
-              "target": "Package",
-              "version": "[2.4.0, )"
             }
           },
           "imports": [

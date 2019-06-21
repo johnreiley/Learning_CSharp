@@ -1675,6 +1675,16 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Learning_CSharp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/Learning_CSharp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Learning_CSharp.dll": {}
+        }
       }
     }
   },
@@ -5842,10 +5852,16 @@
         "xunit.runner.visualstudio.2.4.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Learning_CSharp/1.0.0": {
+      "type": "project",
+      "path": "../../src/Learning_CSharp.csproj",
+      "msbuildProject": "../../src/Learning_CSharp.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "Learning_CSharp >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.0.1",
       "Microsoft.NETCore.App >= 2.2.0",
       "xunit >= 2.4.0",
@@ -5859,11 +5875,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\johnlreiley\\Learning_C#\\test\\app.Tests\\app.Tests.csproj",
-      "projectName": "app.Tests",
-      "projectPath": "C:\\Users\\johnlreiley\\Learning_C#\\test\\app.Tests\\app.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\johnlreiley\\Learning_CSharp\\test\\Learning_CSharp.Tests\\Learning_CSharp.Tests.csproj",
+      "projectName": "Learning_CSharp.Tests",
+      "projectPath": "C:\\Users\\johnlreiley\\Learning_CSharp\\test\\Learning_CSharp.Tests\\Learning_CSharp.Tests.csproj",
       "packagesPath": "C:\\Users\\johnlreiley\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\johnlreiley\\Learning_C#\\test\\app.Tests\\obj\\",
+      "outputPath": "C:\\Users\\johnlreiley\\Learning_CSharp\\test\\Learning_CSharp.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5881,7 +5897,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\johnlreiley\\Learning_CSharp\\src\\Learning_CSharp.csproj": {
+              "projectPath": "C:\\Users\\johnlreiley\\Learning_CSharp\\src\\Learning_CSharp.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

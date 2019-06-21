@@ -7,7 +7,8 @@ namespace Learning_CSharp
         static void Main(string[] args)
         {
             // DuckInterfacing();
-            DoSomeInheritanceStuff();
+            // DoSomeInheritanceStuff();
+            System.Console.WriteLine(MyMath.Power(2, 5));
         }
 
 
